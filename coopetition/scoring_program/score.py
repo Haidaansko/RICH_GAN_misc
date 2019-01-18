@@ -30,7 +30,7 @@ else:
 
     reference  = pd.read_csv(reference_file)
     prediction = pd.read_csv(prediction_file)
-    # prediction[config['X_cols']] = reference[config['X_cols']]
+    prediction[config['X_cols']] = reference[config['X_cols']]
 
     score = 0
     cols = config['Y_cols'] + config['X_cols']
