@@ -4,3 +4,4 @@ n_slices: 1000
 prediction_file: "v1_pion_validation_pred.csv"
 X_cols: ['TrackP', 'TrackPt', 'TrackEta', 'NumLongTracks']
 Y_cols: ['RichDLLe', 'RichDLLk', 'RichDLLmu', 'RichDLLp', 'RichDLLbt']
+random_seed: 66613

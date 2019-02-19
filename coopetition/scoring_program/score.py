@@ -34,6 +34,7 @@ else:
 
     score = 0
     cols = config['Y_cols'] + config['X_cols']
+    np.random.seed(config['random_seed']
     w_normal = np.random.normal(size=(config['n_slices'], len(cols)))
     reference = reference[cols].values
     prediction = prediction[cols].values
